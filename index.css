@@ -1,0 +1,75 @@
+:root{
+    --text: #f3efe2;
+    --background: #070603;
+    --primary: #cca72e;
+    --secondary: #705910;
+    --accent: #a7830c;  
+    --secback: #110F0A;
+}
+hr {
+  width: 100%;
+  border: 1px inset var(--secondary)
+}
+h1, p {
+    margin: 0 0 10px 0;
+}
+body {
+    margin: 0;
+    background: var(--background);
+    color: var(--text);
+    font-family: "Karla", sans-serif;
+}
+.greenTitle{
+    display: block;
+    color: #cca72e;
+}
+.flex{
+    display: flex;
+}
+.content-wrap{
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+    padding: 50px 20px;
+    background-color: var(--secback);
+}
+button{
+    background-color: var(--primary);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: var(--background);
+    font-weight: 600;
+    width: fit-content;
+}
+button:hover{
+    box-shadow: 0 5px 15px rgba(204, 167, 46, .4);
+}
+.pass{
+    background-color: var(--secondary);
+    width: 48%;
+    border-radius: 5px;
+    min-height: 20px;
+    padding: 10px 0;
+    text-align: center;
+}
+.pass-wrap{
+    flex-direction: row;
+    justify-content: space-between;
+}
+#length{
+    display: block;
+    background-color: var(--secondary);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--text)
+    
+}
+.settings-div{
+    justify-content: space-between;
+    display: none
+}
+input{
+    margin-top: 10px;
+}

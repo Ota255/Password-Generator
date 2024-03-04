@@ -1,0 +1,43 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="content-wrap flex">
+            <div class="title-wrap">
+                <h1>Generate a <span class="greenTitle">Random Password</span></h1>
+                <p>Never use an insecure password again</p>
+            </div>
+            <div class="buttons">
+                <button class="mainBT" id="generate-btn" >Generate Passwords</button>
+                <button class="mainBT" id="settings-btn" ><i class="fa fa-cog" aria-hidden="true"></i></button>
+            </div>
+            <div class="settings-div" id="settings-div">
+                <div class="PasswordL">
+                    <label for="length">Password Length: </label>
+                    <input id="length" name="length" value="15" type="number" placeholder="Ex: 15">
+                </div>
+                <div class="Has">
+                    <p>Temp:</p>
+                    <div>
+                        <input id="hasNumber" name="hasNumber" type="checkbox" checked placeholder="Ex: 15">
+                        <label for="hasNumber">Has Numbers? </label>
+                    </div>
+                    <div>
+                        <input id="hasSymbols" name="hasSymbols" type="checkbox" checked placeholder="Ex: 15">
+                        <label for="hasSymbols">Has Symbols? </label>
+                    </div>
+                </div>
+            </div>
+            <hr class="solid">
+            <div class="pass-wrap flex">
+                <p class="pass" id="pass1"></p>
+                <p class="pass" id="pass2"></p>
+            </div>
+            
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
