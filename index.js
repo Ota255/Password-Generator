@@ -47,9 +47,9 @@ passElR.addEventListener("click", () => copyText(passElR.textContent))
 settingsBtn.addEventListener("click", toggleSettings)
 function toggleSettings() {
     let settingsEl = document.getElementById("settings-div")
-    if(settingsEl.style.display === 'none'){
-        settingsEl.style.display = 'flex'
-    } else {
+    if(settingsEl.style.display === 'flex'){
         settingsEl.style.display = 'none'
+    } else {
+        settingsEl.style.display = 'flex'
     }
 }
