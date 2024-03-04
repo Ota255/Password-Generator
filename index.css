@@ -52,6 +52,7 @@ button:hover{
     min-height: 20px;
     padding: 10px 0;
     text-align: center;
+    cursor: copy;
 }
 .pass-wrap{
     flex-direction: row;
@@ -68,7 +69,7 @@ button:hover{
 }
 .settings-div{
     justify-content: space-between;
-    display: none
+    display: none;
 }
 input{
     margin-top: 10px;
