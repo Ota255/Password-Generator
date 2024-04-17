@@ -29,9 +29,10 @@ body {
 .content-wrap{
     flex-direction: column;
     gap: 20px;
-    margin: 20px;
+    margin: 20px auto;
     padding: 50px 20px;
     background-color: var(--secback);
+    max-width: 600px;
 }
 button{
     background-color: var(--primary);
